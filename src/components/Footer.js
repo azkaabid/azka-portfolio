@@ -40,7 +40,11 @@ export default function Footer() {
         </a>
       </div>
 
-      <p className="flex justify-center gap-6 -mb-6 hover:text-neon">⋆.˚ ☾ ⋆˙⟡ Designed & Built by Azka Abid ⟡˙⋆ ☾ ˚.⋆</p>
+      <a
+          href="https://github.com/azkaabid/azka-portfolio"
+          target="_blank"
+          rel="noopener noreferrer" 
+          className="flex justify-center gap-6 -mb-6 hover:text-neon">⋆.˚ ☾ ⋆˙⟡ Designed & Built by Azka Abid ⟡˙⋆ ☾ ˚.⋆</a>
     </footer>
   );
 }
